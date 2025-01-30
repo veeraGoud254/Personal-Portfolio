@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:border-box; 
+} 
+.main{
+    background-size: cover;
+    background-image: url("index.jpg");
+    height: 800px;
+    width:100%;
+    padding-left:10px ;
+    padding-right:60px ;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.navbar{
+    color: aliceblue;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo{
+    font-size: 1.3rem;
+    display: flex;
+    width: 150px;
+    margin-left: 6px;
+    i{
+        margin-top: 6px;
+        margin-right: 7px;
+        color: rgb(96, 77, 77);
+    }
+    p{
+        color: rgb(228, 125, 125);
+        font-size: 1.5rem;
+    }
+}
+.about_details{
+    display:flex;
+    justify-content: space-evenly;
+    width: 250px;
+    margin-bottom: 60px;
+    margin-right: 10px;
+    margin-left: 10px;
+    a{
+        text-decoration: none;
+        color: rgb(16, 230, 23);
+        justify-content: space-evenly;
+        margin-bottom: 100px;
+        font-size: 1.1rem;
+        margin-right: 10px;
+    }
+}
+.content{
+    color: aliceblue;
+    padding-left: 20px;
+    padding-top: 60px;
+    font-size: 1.5rem;
+    margin-left: 30px;
+}
+.sub_content{
+    padding-top: 10px;
+    width: 600px; 
+    font-size: 1rem;
+    p1{
+        color: rgb(184, 235, 209);
+    }
+}
+.login{
+    width: 50px;
+    display: flex;
+    button{
+        color: rgb(157, 160, 162);
+        background-color: rgb(49, 49, 55);
+        height: 25px;
+        width:50px ;
+        border-radius: 7px;
+        border: none;
+        font-size: 0.85rem;
+       }
+}
+.register{
+    width:70px ; 
+    button{
+        color: rgb(157, 160, 162);
+        background-color: rgb(49, 49, 55);
+        height: 25px;
+        width:70px ;
+        border-radius: 7px;
+        border: none;
+        font-size: 0.85rem;
+    }
+}
+.hire{
+    height: 35px;
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 30px;
+    button{
+        color: rgb(40, 43, 45);
+        background-color: rgb(252, 226, 119);
+        width: 100px;
+        height: 35px;
+        font-size: 1rem;
+        border-radius: 10px;
+        border: none;
+    }
+}
+.feedback{
+    margin-left: 30px;
+    margin-top: 40px;
+    height: 50px;
+    width: 200px;
+    textarea{
+       height: 50px;
+       width: 200px;
+       border: 2px;
+       border-radius: 5px;
+       color: rgb(17, 1, 1);
+       background-color: rgb(211, 240, 240);
+    }
+    input{
+        border-radius: 7px;
+        font-size: 0.8rem;
+        height: 20px;
+        width: 70px;
+        /* border: none; */
+        margin-left: 130px;
+    }
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+    border-radius: 7px;
+}
+
+
+
+

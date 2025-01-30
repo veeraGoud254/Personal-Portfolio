@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:border-box; 
+} 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url("front.jpg");
+    min-height: 100vh;
+    backdrop-filter: blur(5px);
+}
+.wrapper{
+    color: rgb(16, 16, 12); 
+   background-color: transparent;
+   height: 300px;
+   width: 300px;
+   border-style: solid;
+   border-radius: 15px;
+   border-color: whitesmoke;
+   padding: 20px;
+   text-align: center;
+}
+h1{
+    color: rgb(9, 87, 64);
+   margin-top: 20px;
+   font-size: 2rem;
+
+}
+.input_box {
+    position: relative;
+    width: 285px;
+    margin: 10px;
+
+}
+.input_box input {
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    border: 1px solid #ec0e0e;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.input_box i {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #0a0909;
+}
+.password {
+    position: relative;
+    width: 300;
+    margin: 10px;
+}
+.password input {
+    width: 285px;
+    padding: 10px 40px 10px 10px; /* Adjust padding to make space for the icon */
+    border: 1px solid #c90b0b;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.password i {
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Position the icon inside the input field */
+    transform: translateY(-50%);
+    color: #0b0909;
+}
+.remember{
+    font-size: 0.8rem;
+    display: flex;
+    margin-left: 10px;
+    a{
+        /* text-decoration: none; */
+        margin-left: 100px;
+        color: rgb(5, 5, 6);
+    }
+}
+.login{
+    margin-top: 10px;
+
+    button{
+    width: 290px;
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 5px;
+    border-radius: 10px;
+    /* border: none; */
+    }
+}
+.register{
+    margin-top: 10px;
+    font-size: 0.79rem;
+    margin-left: 10px; 
+    a{
+        /* text-decoration: none; */
+        color: #0b0909;
+    } 
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
